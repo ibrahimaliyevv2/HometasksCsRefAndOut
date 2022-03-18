@@ -1,0 +1,13 @@
+/Users/ibrahimaliyevv/Projects/HometasksCsRefAndOut/HometasksCsRefAndOut/bin/Debug/netcoreapp3.1/HometasksCsRefAndOut.deps.json
+/Users/ibrahimaliyevv/Projects/HometasksCsRefAndOut/HometasksCsRefAndOut/bin/Debug/netcoreapp3.1/HometasksCsRefAndOut.runtimeconfig.json
+/Users/ibrahimaliyevv/Projects/HometasksCsRefAndOut/HometasksCsRefAndOut/bin/Debug/netcoreapp3.1/HometasksCsRefAndOut.runtimeconfig.dev.json
+/Users/ibrahimaliyevv/Projects/HometasksCsRefAndOut/HometasksCsRefAndOut/bin/Debug/netcoreapp3.1/HometasksCsRefAndOut.dll
+/Users/ibrahimaliyevv/Projects/HometasksCsRefAndOut/HometasksCsRefAndOut/bin/Debug/netcoreapp3.1/HometasksCsRefAndOut.pdb
+/Users/ibrahimaliyevv/Projects/HometasksCsRefAndOut/HometasksCsRefAndOut/obj/Debug/netcoreapp3.1/HometasksCsRefAndOut.csproj.AssemblyReference.cache
+/Users/ibrahimaliyevv/Projects/HometasksCsRefAndOut/HometasksCsRefAndOut/obj/Debug/netcoreapp3.1/HometasksCsRefAndOut.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ibrahimaliyevv/Projects/HometasksCsRefAndOut/HometasksCsRefAndOut/obj/Debug/netcoreapp3.1/HometasksCsRefAndOut.AssemblyInfoInputs.cache
+/Users/ibrahimaliyevv/Projects/HometasksCsRefAndOut/HometasksCsRefAndOut/obj/Debug/netcoreapp3.1/HometasksCsRefAndOut.AssemblyInfo.cs
+/Users/ibrahimaliyevv/Projects/HometasksCsRefAndOut/HometasksCsRefAndOut/obj/Debug/netcoreapp3.1/HometasksCsRefAndOut.csproj.CoreCompileInputs.cache
+/Users/ibrahimaliyevv/Projects/HometasksCsRefAndOut/HometasksCsRefAndOut/obj/Debug/netcoreapp3.1/HometasksCsRefAndOut.dll
+/Users/ibrahimaliyevv/Projects/HometasksCsRefAndOut/HometasksCsRefAndOut/obj/Debug/netcoreapp3.1/HometasksCsRefAndOut.pdb
+/Users/ibrahimaliyevv/Projects/HometasksCsRefAndOut/HometasksCsRefAndOut/obj/Debug/netcoreapp3.1/HometasksCsRefAndOut.genruntimeconfig.cache
