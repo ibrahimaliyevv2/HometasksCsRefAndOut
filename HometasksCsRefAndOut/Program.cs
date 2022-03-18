@@ -21,9 +21,12 @@ namespace HometasksCsRefAndOut
             #endregion
 
             #region Hometask-3 Addition
-            int num = 35;
-            Console.WriteLine(NearestSquareRoot(ref num));
+            //int num = 35;
+            //Console.WriteLine(NearestSquareRoot(ref num));
             #endregion
+
+            int num = 357;
+            Console.WriteLine(LastToFirst(ref num));
         }
 
 
@@ -88,6 +91,28 @@ namespace HometasksCsRefAndOut
                 }
                 num = answer;
             }
+            return num;
+        }
+
+        //Hometask-4: Verilmis n ededinin son reqemini onun evveline getirerek yeni bir eded duzeldin
+        //(misalcun daxil edilen eded 475 olarsa, geriye 547 qaytarsin).
+
+        static int LastToFirst(ref int num)
+        {
+            int count = 0;
+            int swapped;
+            int last = num % 10;
+            while (num != 0)
+            {
+                num /= 10;
+                count++;
+            }
+            int expo = (int)Math.Pow(10,count);
+
+
+
+            swapped = ((num - last) / expo) + (last * expo);
+            num = swapped;
             return num;
         }
     }
