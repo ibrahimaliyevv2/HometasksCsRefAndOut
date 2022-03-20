@@ -8,6 +8,8 @@ namespace HometasksCsRefAndOut
         
         static void Main(string[] args)
         {
+            #region Additions to Tasks
+
             #region Hometask-1 Addition
             //int[] numbers = { 12, 13, 14, 15 };
             //int num = 16;
@@ -25,14 +27,18 @@ namespace HometasksCsRefAndOut
             //Console.WriteLine(NearestSquareRoot(ref num));
             #endregion
 
-            int num = 357;
-            Console.WriteLine(LastToFirst(ref num));
+            #region Hometask-4 Addition
+            //int num = 475;
+            //Console.WriteLine(LastToFirst(ref num));
+            #endregion
+
+            #endregion
         }
 
+        #region Tasks (Methods)
 
         //Hometask-1: Parameter olaraq integer array ve integer qebul eden
         //ve hemin integer value-nu integer array-e yeni element kimi daxil eden metod
-
         static void AddNumber(ref int[] numbers, int num)
         {
             int[] newNumbers = new int[numbers.Length + 1];
@@ -54,7 +60,6 @@ namespace HometasksCsRefAndOut
 
         //Hometask-2: Parameter olaraq bir string deyer qebul edir ve ondaki bosluqlari silir
         //Meselen, "Hikmet Abbasov" --> "HikmetAbbasov"
-
         static string RemoveSpaces(ref string text)
         {
             string newText = "";
@@ -73,7 +78,6 @@ namespace HometasksCsRefAndOut
         //Hometask-3: Qebul etdiyi integer hemin parametrin deyerinin en yaxin kokalti
         //deyerini menimseden metod
         //Meselen int num=35 versek, bu variable-in yeni deyeri 5 olmalidir/
-
         static int NearestSquareRoot(ref int num)
         {
             int answer = 0;
@@ -94,26 +98,26 @@ namespace HometasksCsRefAndOut
             return num;
         }
 
+
         //Hometask-4: Verilmis n ededinin son reqemini onun evveline getirerek yeni bir eded duzeldin
         //(misalcun daxil edilen eded 475 olarsa, geriye 547 qaytarsin).
 
         static int LastToFirst(ref int num)
         {
-            int count = 0;
-            int swapped;
+            int count = 1;
             int last = num % 10;
+            int num2 = num;
             while (num != 0)
             {
                 num /= 10;
-                count++;
+                count *= 10;
             }
-            int expo = (int)Math.Pow(10,count);
-
-
-
-            swapped = ((num - last) / expo) + (last * expo);
-            num = swapped;
+            
+            num2 = last * count / 10 + num2 / 10; //o demekdir ki, ustune 47 topla
+            num = num2;
             return num;
         }
+
+        #endregion
     }
 }
